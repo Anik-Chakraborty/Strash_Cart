@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">StrashCart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upi_warning">This App is in development mode...so do not perform any transaction...if you want to donate or support developers then only proceed...but you will not receive any thing in return</string>
+    <string name="about_txt1">This application will help our environment by cutting down on the amount of various in-organic waste.</string>
+    <string name="about_txt2">The working procedure is simple yet effective. There are two accounts one for business purpose and another one for the user or buyer purpose .</string>
+    <string name="about_txt3">User can sell recyclable wastes in this application and buy recycled products . The sold waste will be recycled and user seller can sell those in this platform as the buyer can by those. </string>
+    <string name="about_txt4">Thus the waste products will be recycled and can be used again serving many purposes. This cycle will help us to reduce the amount of in-organic and recyclable wastes and will help our environment to become pollution free.</string>
+    <string name="about_txt5">The team which tried their very best to make the application:-</string>
+    <string name="about_txt6">Anik Chakraborty (Contact:- canik104@gmail.com)</string>
+    <string name="about_txt7">Debobrata Chatterjee (Contact:- devchat000@gmail.com)</string>
+    <string name="about_txt8">Sanjib Paul (Contact:-mesanjibpaul1@gmail.com)</string>
+    <string name="about_txt9">Subhankar Chakraborty (Contact:- subhchakraborty001@gmail.com)</string>
+    <string name="about_txt10">Pijus Kanti Hazra (Contact:- pijuskantihazra032@gmail.com)</string>
+    <string name="about_txt11">Bishal Roy (Contact:-roybishal2000@gmail.com)</string>
+    <string name="about_txt12">** Your one opinion will case one improvement. So please take your time and don\'t forget to give us your valuable feedback.**</string>
+
+    <string name="feedback_txt1">We appreciate your interest in providing us with your valuable Insights. !!!!</string>
+    <string name="feedback_txt2">** In oder to make your feedback form successfully sent to us please ensure you use the following e-mail address as receiver.  **</string>
+    <string name="feedback_txt3"></string>
+
+    <string name="api_key">AIzaSyCjkDqaGkuYXAk44Yp2AE1OudCktWkzje4</string>
+</resources>

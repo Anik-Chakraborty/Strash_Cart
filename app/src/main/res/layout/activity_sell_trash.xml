@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".sell_trash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/PrimaryColorCodeTwo"
+            android:background="@drawable/back_activity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_serif_pro_regular"
+            android:text="Profile"
+            android:textColor="@color/PrimaryColorCodeTwo"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintStart_toEndOf="@+id/btn_back"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Trash Type"
+            android:textColorHint="@color/PrimaryColorCodeOne"
+            app:boxStrokeColor="@color/PrimaryColorCodeOne"
+            app:hintTextColor="@color/PrimaryColorCodeOne"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Trash Description"
+        android:textColorHint="@color/PrimaryColorCodeOne"
+        app:boxStrokeColor="@color/PrimaryColorCodeOne"
+        app:hintTextColor="@color/PrimaryColorCodeOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/trash_des"
+            style="@style/TextInputEditText"
+            android:minLines="1"
+            android:maxLines="4"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Pickup Location"
+        android:textColorHint="@color/PrimaryColorCodeOne"
+        app:boxStrokeColor="@color/PrimaryColorCodeOne"
+        app:hintTextColor="@color/PrimaryColorCodeOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_logo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/trash_location"
+            style="@style/TextInputEditText"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/post_trash"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/PrimaryColorCodeTwo"
+        android:fontFamily="@font/source_serif_pro_regular"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="15dp"
+        android:text="Post Pickup"
+        android:textAllCaps="false"
+        app:cornerRadius="10dp" />
+
+</LinearLayout>

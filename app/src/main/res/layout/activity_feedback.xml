@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/AdditionalColorCodeOne"
+        android:elevation="20dp"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/btn_back_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_activity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/source_serif_pro_regular"
+            android:textSize="25dp"
+            android:text="Feedback"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/PrimaryColorCodeOne"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_serif_pro_regular"
+        android:textStyle="bold"
+        android:text="@string/feedback_txt1"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/edit_text_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:layout_margin="10dp"
+        android:hint="Type Your Feedback Here"
+        android:fontFamily="@font/source_serif_pro_regular"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:lines="10" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_feedback_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@color/PrimaryColorCodeOne"
+        android:textColor="@color/AdditionalColorCodeOne"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/source_serif_pro_regular"
+        />
+
+
+
+</LinearLayout>

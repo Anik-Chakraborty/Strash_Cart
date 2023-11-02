@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/PrimaryColorCodeTwo">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/material_type"
+            android:text="Type"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/source_serif_pro_regular"
+            android:textSize="25dp"
+            android:textColor="@color/AdditionalColorCodeOne"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/material_location"
+            android:text="Location"
+            android:textColor="@color/AdditionalColorCodeOne"
+            android:textSize="22dp"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/source_serif_pro_regular"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/AdditionalColorCodeTwo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/material_des"
+            android:text="Description"
+            android:textColor="@color/AdditionalColorCodeOne"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/source_serif_pro_regular" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

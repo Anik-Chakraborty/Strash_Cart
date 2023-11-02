@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/near_dustbin"
+        android:title="Dustbin"
+        android:icon="@drawable/bin_loc_active"/>
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_active"/>
+    <item android:id="@+id/menu"
+        android:icon="@drawable/menu_active"
+        android:title="Menu"/>
+
+</menu>
